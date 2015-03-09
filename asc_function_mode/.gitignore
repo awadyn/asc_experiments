@@ -1,0 +1,17 @@
+autom4te.cache
+config.log
+config.status
+configure
+*.swp
+*.o
+maps/lexer.c
+maps/parser.c
+maps/parser.h
+asc
+train
+nops
+counter
+loop
+collatz
+inner
+3sum
