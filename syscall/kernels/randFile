@@ -1,0 +1,10 @@
+#!/bin/bash
+
+[[ -a numbers ]] && rm -rf numbers
+
+outFile=numbers
+
+for ((i=0;i<100;i++))
+do
+	echo -e -n ${RANDOM}' ' >> $outFile
+done
