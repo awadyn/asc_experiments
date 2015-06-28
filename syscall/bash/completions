@@ -1,9 +1,0 @@
-# Source this file to get custom tab-completions for asc.
-
-_asc()
-{
-    local cur=${COMP_WORDS[COMP_CWORD]}
-    COMPREPLY=( $(compgen -W "--singlestep --address --instructions train" -- $cur) )
-}
-
-complete -F _asc ./asc
